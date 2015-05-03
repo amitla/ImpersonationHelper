@@ -6,13 +6,12 @@ namespace ImpersonationHelper
 {
     public class ImpersonationHelper : IDisposable
     {
-        //private const string DEFAULT_CREDENTIAL_NAME = "CopyCampaignsWindowsCred";
         private const string DEFAULT_CREDENTIAL_NAME = "DEFAULT_IMPOERSONATION_HELPER";
 
         private Credential mCred;
         private Impersonation mImpersonation;
 
-        internal ImpersonationHelper(string credentialTargetName = DEFAULT_CREDENTIAL_NAME)
+        public  ImpersonationHelper(string credentialTargetName = DEFAULT_CREDENTIAL_NAME)
         {
             mCred = new Credential() { Target = credentialTargetName };
             if (mCred.Exists())
