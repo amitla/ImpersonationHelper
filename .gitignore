@@ -161,3 +161,6 @@ partners/
 
 # Webstorm idea files
 .idea/
+
+#nuget package files
+*.nupkg
