@@ -4,9 +4,9 @@ Allows easy one-line impersonation for .Net apps using credentials from the wind
 ###usage:
 
 ```csharp
+// Credentials should be saved in the Domain\user.name format
 using (new ImpersonationHelper.ImpersonationHelper("<NAME OF CREDETIAL AS APPEARS IN WINDOWS CREDENTIAL STORE>"))
 {
     // do stuff here while imersonated
 }
 ```
-
