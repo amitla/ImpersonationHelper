@@ -8,7 +8,7 @@ namespace ImpersonationHelper
     {
         private const string DEFAULT_CREDENTIAL_NAME = "DEFAULT_IMPOERSONATION_HELPER";
 
-        private Credential mCred;
+        private Credential mCred; 
         private Impersonation mImpersonation;
 
         public  ImpersonationHelper(string credentialTargetName = DEFAULT_CREDENTIAL_NAME)

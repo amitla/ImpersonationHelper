@@ -1,0 +1,1 @@
+nuget pack ImpersonationHelper.csproj -Properties Configuration=Release

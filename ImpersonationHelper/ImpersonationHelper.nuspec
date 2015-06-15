@@ -1,18 +1,22 @@
-<?xml version="1.0"?>
-<package >
-  <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>https://github.com/amitla/ImpersonationHelper/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/amitla/ImpersonationHelper</projectUrl>
-    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>First release - basic functionality</releaseNotes>
-    <copyright>Copyright 2015 - Amit Lavian</copyright>
-    <tags>impersonation windows credentials credential</tags>
-  </metadata>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ImpersonationHelper</id>
+        <version>$version$</version>
+        <title>ImpersonationHelper</title>
+        <authors>Amit Lavian</authors>
+        <owners>Amit Lavian</owners>
+        <licenseUrl>https://github.com/amitla/ImpersonationHelper/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/amitla/ImpersonationHelper</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easily Impersonate with credentials saved in windows credentials manager</description>
+        <releaseNotes>First release - basic functionality</releaseNotes>
+        <copyright>Copyright 2015 - Amit Lavian</copyright>
+        <tags>impersonation windows credentials credential</tags>
+        <dependencies>
+            <dependency id="CredentialManagement" version="1.0.2" />
+            <dependency id="SimpleImpersonation" version="1.0.1" />
+        </dependencies>
+    </metadata>
+    <files />
 </package>
